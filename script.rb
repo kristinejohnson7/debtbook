@@ -11,7 +11,6 @@ db.create_table :messages do
   String :message, null: false
 end
 
-# set :bind, '0.0.0.0'
 configure do
   enable :cross_origin
 end
