@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 30px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.messageWrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  padding: 20px;
+  display: flex;
+  box-shadow: 0 3px 8px #0000003d;
+}
+
+.btnWrapper {
+  text-align: right;
+}
+
+button {
+  cursor: pointer;
+  background-color: #0000;
+  border: none;
+}
+
+.modal {
+  background-color: #00000080;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  inset: 0;
+}
+
+.modalContent {
+  width: 500px;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.header {
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.close {
+  text-align: right;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+form {
+  align-items: center;
+  display: flex;
+}
+
+label input {
+  margin-right: 10px;
+  padding: 7px;
+}
+
+.submitBtn {
+  background-color: #e5daf0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
